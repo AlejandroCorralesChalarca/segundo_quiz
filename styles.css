@@ -3,24 +3,24 @@
     height: 715px;
     background-color: #85331e;
     border-radius: 10px;
-    display: flex;           /* Activar Flexbox */
-    flex-wrap: wrap;       /* Permitir que los elementos se envuelvan */
-    flex-direction: column; /* Dirección de los elementos (columna) */
-    justify-content: center; /* Alineación horizontal */
-    justify-content: space-around; /* Espacio entre elementos */
-    align-items: center;     /* Alineación vertical */
+    display: flex;           
+    flex-wrap: wrap;       
+    flex-direction: column; 
+    justify-content: center; 
+    justify-content: space-around; 
+    align-items: center;     
 }
 
 .container-hijo{
     width: 99%;
     height: 210px;
     border-radius: 10px;
-    display: flex;           /* Activar Flexbox */
+    display: flex;           
     flex-wrap: wrap;
-    flex-direction: row; /* Dirección de los elementos (columna) */
-    justify-content: center; /* Alineación horizontal */
-    justify-content: space-between; /* Espacio entre elementos */
-    align-items: center;     /* Alineación vertical */
+    flex-direction: row; 
+    justify-content: center; 
+    justify-content: space-between; 
+    align-items: center;    
 }
 
 .container-nieto{
@@ -28,10 +28,10 @@
     height: 100%;
     border-radius: 10px;
     background-color: #ebdfa5;
-    display: flex;           /* Activar Flexbox */
+    display: flex;           
     margin-left: 5px;
     margin-right: 5px;
-    justify-content: center; /* Espacio entre elementos */
+    justify-content: center; 
 
 }
 
@@ -40,8 +40,8 @@
     height: 100%;
     border-radius: 10px;
     background-color: #4a8b75;        
-    display: flex;           /* Activar Flexbox */
+    display: flex;           
     margin-left: 5px;
     margin-right: 5px;
-    justify-content: center; /* Espacio entre elementos */
+    justify-content: center; 
 }
